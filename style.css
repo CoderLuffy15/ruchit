@@ -1,0 +1,81 @@
+body{
+    background: #FFC962;
+}
+
+.main-box{
+    text-align: center;
+    margin: 15%;
+}
+
+h1{
+    font-family: 'Love Light', cursive;
+    font-size: 100px;
+    color: #FE0000;
+}
+.agree{
+    border: none;
+    font-family: 'Love Light', cursive;
+    font-size: 50px;
+    padding: 0 50px;
+    border-radius: 10px;
+    background: #F6EEAC;
+    color:black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.agree:hover{
+    padding: 5px 60px;
+    background-color:#F94F6B ;
+    transition-duration: 1s;
+}
+
+
+.mySlides {
+    display: none;
+    text-align: center;
+  }
+  img {
+    vertical-align: middle;
+  }
+
+
+  /* Slideshow container */
+  .slideshow-container {
+    display:none;
+  }
+
+ 
+  /* The dots/bullets/indicators */
+  .dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  .dot1{
+    display: none;
+  }
+
+  .active {
+    background-color: #717171;
+  }
+
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+  @keyframes fade {
+    from {
+      opacity: 0.4;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
